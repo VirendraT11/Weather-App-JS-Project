@@ -1,4 +1,4 @@
-const apiKey = '3bf05f6e1a8c7c40f28db5064ff96295';
+const apiKey = 'OPENWEATHER API KEY';
 let isCelsius = true;
 
 document.getElementById('search-btn').addEventListener('click', getWeather);
