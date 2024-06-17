@@ -66,11 +66,6 @@ Welcome to my Weather App project! This responsive, feature-rich weather applica
 - **Chart.js**: For creating interactive charts.
 - **Geolocation API**: For detecting the user's current location.
 
-## Screenshots
-![Light Mode](screenshots/light-mode.png)
-![Dark Mode](screenshots/dark-mode.png)
-![Weather Chart](screenshots/weather-chart.png)
-
 ## Live Demo
 Check out the live demo of the Weather App [here](https://virendrat11.github.io/weather-app).
 
@@ -85,4 +80,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize the URLs, screenshots, and any other details to match your project's specifics and personal preferences. This README should help impress potential employers and collaborators with the depth and quality of your work.
