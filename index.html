@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather App</h1>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </div>
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="weather-info">
+            <h2 id="location"></h2>
+            <img id="weather-icon" src="clouds.png" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <button id="unit-toggle">Toggle °C/°F</button>
+        </div>
+        <canvas id="weather-chart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
